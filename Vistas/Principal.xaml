@@ -75,5 +75,7 @@ HorizontalOptions="Center" />
 
         </ListView>
         <Button x:Name="btnAdd" Text="Añadir Estudiante" Clicked="btnAdd_Clicked" BackgroundColor="Red"/>
+
+        <Button x:Name="btnCamara" Text="Camara" Clicked="btnCamara_Clicked" Background="Black"/>
     </VerticalStackLayout>
 </ContentPage>

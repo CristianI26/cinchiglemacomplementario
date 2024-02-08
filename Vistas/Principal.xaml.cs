@@ -46,4 +46,9 @@ public partial class Principal : ContentPage
     {
         Navigation.PushAsync(new Vistas.Agregar());
     }
+
+    private void btnCamara_Clicked(object sender, EventArgs e)
+    {
+        Navigation.PushAsync(new Vistas.Camara());
+    }
 }
